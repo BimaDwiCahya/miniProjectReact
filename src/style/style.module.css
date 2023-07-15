@@ -1,0 +1,53 @@
+.body{
+    width: 100vw;
+    font-family: cursive;
+}
+.header{
+    margin-left: 50vw;
+    width: 100vw;
+    font-size: 2.2rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+}
+.nav{
+    display: flex; justify-content: flex-end;
+    gap: 35px;
+    background-color: black;
+    height: 75px;
+    align-items: center;
+    padding: 0 20px;
+}
+.homeNav{
+    color: white;
+    margin-right: auto;
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+.list{
+    display: inline-flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 5px black,
+                -1px -1px 5px black;
+    border-radius: 10px;
+    width: 13vw;
+    margin:40px 50px;
+    padding: 10px 0;
+    gap:20px;
+
+}
+.list:hover{
+ transform: scale(1.1);
+ transition: .2s;
+ box-shadow: 1px 1px 15px black,
+ -1px -1px 15px black;
+}
